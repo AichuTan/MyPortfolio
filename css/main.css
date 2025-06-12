@@ -1,0 +1,130 @@
+/* Import a clean professional Google font */
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  font-family: "Open Sans", sans-serif;
+  background-color: #f8fbf6;
+  color: #2d2d2d;
+  line-height: 1.6;
+  padding: 0;
+}
+
+body {
+  max-width: 960px;
+  margin: 40px auto;
+  padding: 0 20px;
+}
+
+/* Navigation Bar */
+nav {
+  background-color: #cfe8fc;
+  padding: 15px 0;
+  text-align: center;
+  margin-bottom: 40px;
+  border-radius: 8px;
+}
+
+nav ul {
+  list-style: none;
+}
+
+nav ul li {
+  display: inline-block;
+  margin: 0 15px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #1e40af;
+  font-weight: 600;
+  font-size: 1.1em;
+}
+
+nav ul li a:hover {
+  color: #003580;
+}
+
+/* Headings */
+h1,
+h2,
+h3 {
+  color: #1a3c40;
+  margin-bottom: 16px;
+}
+
+h2 {
+  font-size: 1.8em;
+  background-color: #e3f7df;
+  padding: 10px;
+  border-radius: 6px;
+}
+
+h3 {
+  font-size: 1.4em;
+  background-color: #d7ebf9;
+  padding: 8px;
+  border-radius: 6px;
+}
+
+/* Paragraphs and Lists */
+p {
+  font-size: 1.1em;
+  margin-bottom: 20px;
+}
+
+ul {
+  margin-left: 20px;
+  margin-bottom: 20px;
+}
+
+ul li {
+  margin-bottom: 8px;
+}
+
+/* Links */
+a {
+  color: #0056b3;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+  color: #003580;
+}
+
+/* Footer */
+footer {
+  margin-top: 50px;
+  padding-top: 15px;
+  border-top: 1px solid #ddd;
+  font-size: 0.9em;
+  color: #444;
+  text-align: center;
+}
+
+/* Utility classes */
+.container {
+  padding: 20px;
+  background-color: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
+}
+
+/* Responsive tweaks */
+@media (max-width: 600px) {
+  nav ul li {
+    display: block;
+    margin: 10px 0;
+  }
+
+  body {
+    margin: 20px;
+  }
+}
