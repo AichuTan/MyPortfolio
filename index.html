@@ -43,6 +43,19 @@ title: Aichu Tan- My Portfolio
       </ul>
 
       <p>Read more about <a href="{{ '/about/' | relative_url }}">my life and journey</a>.</p>
+          <!-- Return to Top Button -->
+      <div style="text-align: center; margin-top: 40px;">
+        <button onclick="scrollToTop()" style="padding: 10px 20px; font-size: 16px;">Return to Top</button>
+      </div>
+
+      <script>
+        function scrollToTop() {
+          window.scrollTo({
+            top: 0,
+            behavior: 'smooth'
+          });
+        }
+      </script>
       </div>
     </main>
 
