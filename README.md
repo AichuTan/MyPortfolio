@@ -40,4 +40,7 @@ MyPortfolio/
 ├── _config.yml        # Jekyll configuration
 ├── README.md          # This file
 └── .gitignore         # Files to ignore in Git
-
+```
+## Term of Use
+This website is for educational and personal portfolio purposes. All project content is original or appropriately cited. Data sources used in visualizations are publicly available and referenced within the projects.
+Please do not redistribute this content without permission or attribution.
